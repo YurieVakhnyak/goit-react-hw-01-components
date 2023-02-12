@@ -25,10 +25,12 @@ export const FriendList = ({ friends }) => {
 };
 
 FriendList.propTypes = {
-  avatar: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  isOnline: PropTypes.bool.isRequired,
-  id: PropTypes.number.isRequired,
+  transactions: PropTypes.shape({
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+    id: PropTypes.number.isRequired,
+  }),
 };
 
 // 'https://scontent-iev1-1.xx.fbcdn.net/v/t1.6435-9/119813891_1664198157101896_2936542534722828577_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vdCvFJQQLNoAX89OATp&_nc_ht=scontent-iev1-1.xx&oh=00_AfCGiuiHy3lYw5jd9cszWQh-27ult2aEEZKMgyMjDc_vFw&oe=64107F73';

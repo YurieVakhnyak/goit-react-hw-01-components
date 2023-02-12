@@ -1,6 +1,5 @@
 .transaction-history {
   box-sizing: border-box;
-  /* outline: 2px solid tomato; */
   width: 600px;
   margin-left: 20px;
 }
@@ -9,11 +8,6 @@
   box-sizing: border-box;
   background-color: darkcyan;
   color: white;
-}
-
-.row {
-  /* outline: 1px solid gainsboro; */
-  margin-left: 40px;
 }
 
 .row:nth-child(even) {

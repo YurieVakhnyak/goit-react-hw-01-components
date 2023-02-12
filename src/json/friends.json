@@ -20,13 +20,13 @@
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
     "name": "Jay",
-    "isOnline": true,
+    "isOnline": false,
     "id": 1714
   },
   {
     "avatar": "https://scontent-iev1-1.xx.fbcdn.net/v/t1.6435-9/119813891_1664198157101896_2936542534722828577_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=vdCvFJQQLNoAX89OATp&_nc_ht=scontent-iev1-1.xx&oh=00_AfCGiuiHy3lYw5jd9cszWQh-27ult2aEEZKMgyMjDc_vFw&oe=64107F73",
     "name": "Andre",
-    "isOnline": false,
+    "isOnline": true,
     "id": 1284
   }
 ]
