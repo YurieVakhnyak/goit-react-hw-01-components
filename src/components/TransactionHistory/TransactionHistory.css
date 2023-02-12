@@ -1,0 +1,39 @@
+.transaction-history {
+  box-sizing: border-box;
+  /* outline: 2px solid tomato; */
+  width: 600px;
+  margin-left: 20px;
+}
+
+.thread {
+  box-sizing: border-box;
+  background-color: darkcyan;
+  color: white;
+}
+
+.row {
+  /* outline: 1px solid gainsboro; */
+  margin-left: 40px;
+}
+
+.row:nth-child(even) {
+  background-color: aliceblue;
+}
+
+.type-col {
+  box-sizing: border-box;
+  width: 200px;
+  padding-left: 70px;
+  outline: 1px solid gainsboro;
+  outline-offset: -1px;
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.amount-col,
+.currency-col {
+  width: 200px;
+  outline: 1px solid gainsboro;
+  outline-offset: -1px;
+  border-radius: 1rem;
+}
